@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    width: 10rem;
+    color: aqua;
+    border-radius: 20px;
+    text-align: center;
+    
+    background-color: red;
+    cursor: pointer;
+}
