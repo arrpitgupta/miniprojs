@@ -1,10 +1,10 @@
-// getting the html elements
+// getting the html elements.
 const decrementBtn = document.getElementById("decrementBtn");
 const incrementBtn = document.getElementById("incrementBtn");
 const resetBtn = document.getElementById("resetBtn");
 const displayValue = document.getElementById("displayValue");
 
-// for decrement button click
+// for decrement button click.
 decrementBtn.addEventListener("click", () => {
   const value = Number(displayValue.innerText);
   if (value > 0) {
@@ -14,7 +14,7 @@ decrementBtn.addEventListener("click", () => {
   }
 });
 
-// for increment button click
+// for increment button click.
 incrementBtn.addEventListener("click", () => {
   const value = Number(displayValue.innerText);
   if (value >= 10) {
@@ -24,7 +24,7 @@ incrementBtn.addEventListener("click", () => {
   }
 });
 
-// for reset button click
+// for reset button click.
 resetBtn.addEventListener("click", () => {
   displayValue.innerText = 0;
 });
